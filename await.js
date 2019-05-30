@@ -32,6 +32,7 @@ async function getLatestLaunches() {
     let imageTag = document.createElement("img");
     imageTag.src = image;
     imageContainer.appendChild(imageTag);
+    // add class to the image element i create
   });
   return data;
 }
