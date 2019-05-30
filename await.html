@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- my style sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- bulma style sheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <title>SpaceX</title>
+  </head>
+  <body id="body">
+      <section class="hero is-primary">
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="title is-1">
+                  SpaceX
+              </h1>
+              <h2 class="subtitle">
+                  The Latest Launch
+              </h2>
+            </div>
+          </div>
+        </section>
+      <section class="section">
+        <img src="icon.png" class="fatherson" alt="">
+          <a class="button is-primary" onclick="getLatestLaunches();">Lift off</a>
+          <br>
+          <br>
+              <strong>Mission Name: </strong>
+              <span id="mission_name"></span>
+            </p>
+            <p>
+                <strong>Rocket Details </strong>
+                <p>name: <span id="rocket_name"></span></p>
+                <p>type: <span id="rocket_type"></span></p>
+            </p>
+            <p >
+                <strong>Flight number: </strong>
+                <span id="flight_number"></span>
+              </p>
+              <p>--------</p>
+            <p>
+              <strong>Details: </strong>
+              <span id="details"></span>
+            </p>
+          </div>
+          <br>
+        </section>
+        <iframe src=""
+        width="560" height="315" frameborder="0" allowfullscreen id="video"></iframe>
+        <div class="image-container"></div>
+    <script src="await.js"></script>
+  </body>
+</html>
