@@ -1,7 +1,7 @@
 <p align="center">
   <img width="270" height="250" src=icon.png></p>
 
-# Where is the Internation Space Station
+# Space X Latest Launches
 
 > A web application built that allows the user to observe where the current location of the ISS
 
